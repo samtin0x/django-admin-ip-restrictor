@@ -9,7 +9,7 @@ with open(os.path.join(PROJECT_DIR, 'README.rst')) as readme:
     long_description = readme.read()
 
 install_requires = [
-    'django>=1.11,<4; python_version >= "3.6.0"',
+    'django>=1.11; python_version >= "3.6.0"',
     'django-ipware>=2,<4; python_version >= "3.6.0"',
     'django>=1.11,<3; python_version < "3.6.0"',
     'django-ipware>=2,<3; python_version < "3.6.0"'
